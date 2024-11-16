@@ -4,11 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MarathonForm</title>
-</head>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Pre:wght@400..700&family=Funnel+Display:wght@300..800&family=Space+Mono&display=swap" rel="stylesheet">
+    </head>
 <body>
+    <div class="first_div">
     <form action=""></form>
     <h1>Race Registration!</h1>
-    <div>
+    <div class="second_div">
             <label for="First_Name">First Name</label>
             <input type="text" required id="First_Name" name="name">
             <label for="Last_Name">Last Name</label>
@@ -17,33 +22,33 @@
     <p>
         Select a Race: 
     </p>
-    <div>
-        <div>
+    <div class="third_div">
+        <div class="fourth_div">
                 <input type="radio" required  id="Fun_Run" name="MarathonType" value="fun">
                 <label for="Fun_Run">
                     Fun Run 5k
                 </label>
         </div>
-        <div>
+        <div class="fourth_div">
                  <input type="radio" required id="Half_Marathon" name="MarathonType"  value="half">
                  <label  for="Half_Marathon">
                     Half Marathon
                  </label>
         </div>
-        <div>
+        <div class="fourth_div">
                 <input type="radio" required id="Full_Marathon" name="MarathonType"  value="full">
                 <label for="Full_Marathon">
                     Full Marathon
                 </label>
         </div>
     </div>
-    <div>
+    <div class="fifth_div">
             <label for="email">Email</label>
             <input type="email" id="email" required name="Email">
             <label for="password">Password</label>
             <input type="password" id="password" required name="Password">
     </div>
-    <div>
+    <div class="sixth_div">
         <label for="select">
             Select Age Group
         </label>
@@ -60,6 +65,7 @@
     <button type="submit">Register!</button>
     </form>
     </div>
+</div>
 </form>
 </body>
 </html>
